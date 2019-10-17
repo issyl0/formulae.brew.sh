@@ -1,0 +1,78 @@
+{
+  "name": "silk",
+  "full_name": "silk",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Collection of traffic analysis tools",
+  "homepage": "https://tools.netsa.cert.org/silk/",
+  "versions": {
+    "stable": "3.18.2",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.18.2.mojave.bottle.tar.gz",
+          "sha256": "c90d8dfbda150c1a97e55a749fec32291f85d49479dd2726fbf48b9708c09fc4"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.18.2.high_sierra.bottle.tar.gz",
+          "sha256": "69d9342a0ebfa1429437d3fe656f531599b349da0ab4d057f46c8fd47b841fa3"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.18.2.sierra.bottle.tar.gz",
+          "sha256": "7b0527921b55dab17386e5d334179e7eaf87cc5e1a19fc6df067b2078dc3e43c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "libfixbuf",
+    "yaf"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

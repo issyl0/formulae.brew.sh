@@ -1,0 +1,80 @@
+{
+  "name": "angular-cli",
+  "full_name": "angular-cli",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "CLI tool for Angular",
+  "homepage": "https://cli.angular.io/",
+  "versions": {
+    "stable": "8.3.10",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-8.3.10.catalina.bottle.tar.gz",
+          "sha256": "82168d8f8252bf2e9c1e5dc6269707b93595f4b287de896113ebc8ad577ebf9b"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-8.3.10.mojave.bottle.tar.gz",
+          "sha256": "67d1736d14a0fcf54fa4fdd62e8a247aecd48888f15e635ceb4f4a8f00b03224"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-8.3.10.high_sierra.bottle.tar.gz",
+          "sha256": "8508a62afa6e097d0af7524d155c42b87f953cf1f6fb79bdf4ccfffab0e18c43"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-8.3.10.x86_64_linux.bottle.tar.gz",
+          "sha256": "36147a7b0c208d7e2ee6145861a2110c8711893534abba5869f47b101f4ccc0b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

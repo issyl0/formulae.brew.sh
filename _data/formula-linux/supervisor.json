@@ -1,0 +1,84 @@
+{
+  "name": "supervisor",
+  "full_name": "supervisor",
+  "oldname": null,
+  "aliases": [
+    "supervisord"
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Process Control System",
+  "homepage": "http://supervisord.org/",
+  "versions": {
+    "stable": "4.0.4",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/supervisor-4.0.4.catalina.bottle.tar.gz",
+          "sha256": "a2e538f406d031d64ac2c97747e645393376c28a9e06f71464d6cc9f3434caf8"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/supervisor-4.0.4.mojave.bottle.tar.gz",
+          "sha256": "7d53548c12b1ec06a6bbbd5f8cd8082bccd8c3c48364809c2970d67543f64f79"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/supervisor-4.0.4.high_sierra.bottle.tar.gz",
+          "sha256": "4e323805384ab0ccd6f3ef7d0e3c4329ae0f1edb9cd43d4ef45cbcec72b6a9fb"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/supervisor-4.0.4.sierra.bottle.tar.gz",
+          "sha256": "f9ed5aff67f1fd79b0ced09c5d85a546eb2451c1d621a704c624215f201e1650"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/supervisor-4.0.4.x86_64_linux.bottle.tar.gz",
+          "sha256": "6c5c4707a165da23389c2906808845e5a47533640780f02642f753361b1b7dd4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

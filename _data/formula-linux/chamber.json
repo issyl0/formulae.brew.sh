@@ -1,0 +1,81 @@
+{
+  "name": "chamber",
+  "full_name": "chamber",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "CLI for managing secrets through AWS SSM Parameter Store",
+  "homepage": "https://github.com/segmentio/chamber",
+  "versions": {
+    "stable": "2.7.2",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/chamber-2.7.2.catalina.bottle.tar.gz",
+          "sha256": "719cf1ff8a30bbb72e9d704d7e4e2f42cdd1c9c9b749c12460ab9dd522ef508c"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/chamber-2.7.2.mojave.bottle.tar.gz",
+          "sha256": "cd4a8685e1c1015625abae3db9d928d1b3b57473d97e24e1c927cac87bd573d4"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/chamber-2.7.2.high_sierra.bottle.tar.gz",
+          "sha256": "129584f05584be7a304edd108dfd520bb98e96e70e48ee457f11a7ed49e2700e"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/chamber-2.7.2.x86_64_linux.bottle.tar.gz",
+          "sha256": "de81759609582a08ebbd4889875fcfb6fff7f2a4e6fcffe920e92d972fa9ce32"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go",
+    "govendor"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "s3ql",
+  "full_name": "s3ql",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "POSIX-compliant FUSE filesystem using object store as block storage",
+  "homepage": "https://github.com/s3ql/s3ql",
+  "versions": {
+    "stable": "3.2",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/s3ql-3.2_1.mojave.bottle.tar.gz",
+          "sha256": "bd73c0f779f68e6eefcc00eee53dabc32e8dc2a27c90977f580675e61c9c4133"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/s3ql-3.2_1.high_sierra.bottle.tar.gz",
+          "sha256": "b59f26784bd563fda983aa2922e3d33d3e8d50f020da1daf22f57e4ce33a5148"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/s3ql-3.2_1.sierra.bottle.tar.gz",
+          "sha256": "c83f358cc5dcdc95e1e7cb483fb7745a569aed0225e1318b50a68f7a989a1d7d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+    {
+      "name": "osxfuse",
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse"
+    }
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

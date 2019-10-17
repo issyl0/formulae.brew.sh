@@ -1,0 +1,84 @@
+{
+  "name": "mpg123",
+  "full_name": "mpg123",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "MP3 player for Linux and UNIX",
+  "homepage": "https://www.mpg123.de/",
+  "versions": {
+    "stable": "1.25.12",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/mpg123-1.25.12.catalina.bottle.tar.gz",
+          "sha256": "7e26860cdc0e59aca6d177bf1eb2078fd84668741d33f0e3609a5c6e009b868a"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/mpg123-1.25.12.mojave.bottle.tar.gz",
+          "sha256": "43477cb887e991b1ae0425f25f04028eb59525afb7b4238e9f2c75cf0d0f64fa"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mpg123-1.25.12.high_sierra.bottle.tar.gz",
+          "sha256": "abfccbe7e5e75449a097ca95deae82b04d93062d5dd370ad04cbbef656808201"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mpg123-1.25.12.sierra.bottle.tar.gz",
+          "sha256": "b640cb47e7116c278b63fdb37d03653317ceb4af83fc3778ae51646bdd786de0"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/mpg123-1.25.12.x86_64_linux.bottle.tar.gz",
+          "sha256": "94f960616da12a720cf6ede09c3423ed3e4f0c68b3f080ae24f25e37012f7512"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

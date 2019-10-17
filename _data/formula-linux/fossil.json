@@ -1,0 +1,85 @@
+{
+  "name": "fossil",
+  "full_name": "fossil",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Distributed software configuration management",
+  "homepage": "https://www.fossil-scm.org/",
+  "versions": {
+    "stable": "2.9",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.9_1.catalina.bottle.tar.gz",
+          "sha256": "9477508505b77e23d3e20387141b1dd98ea384b768283bec8f3b4ae161220e6a"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.9_1.mojave.bottle.tar.gz",
+          "sha256": "c876f19f2fe8bd1d92360437baee0e3887a7598497328f408b5ad84d5ffe6696"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.9_1.high_sierra.bottle.tar.gz",
+          "sha256": "8b3b9b01b25196cef89e25e95b0eda93976a43fc3f525f77cc4353e492142091"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.9_1.sierra.bottle.tar.gz",
+          "sha256": "52de169a2cc7dcf4eff56e9553184f1790f98ee1bd21b367aeb83d1c637c862e"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.9_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "eff75026a44e8ba93d7b12ba2403e809dcaa394c3b8494666f3f3349f35821a3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "zlib"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

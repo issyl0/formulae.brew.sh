@@ -1,0 +1,76 @@
+{
+  "name": "flintrock",
+  "full_name": "flintrock",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Tool for launching Apache Spark clusters",
+  "homepage": "https://github.com/nchammas/flintrock",
+  "versions": {
+    "stable": "0.11.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/flintrock-0.11.0_1.mojave.bottle.tar.gz",
+          "sha256": "b3b8a12d9a97a97ea14fb9da67a59401a0c3f4227e89f2796eef62552d3edc9a"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/flintrock-0.11.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "12c01007c2c6e8b8c0a8df9f1b1787c1c74f77e3e6ad966f732789c9db670d3b"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/flintrock-0.11.0_1.sierra.bottle.tar.gz",
+          "sha256": "8e5a31f7671a11c8e6946c926230d9b3fc74fc1338823292f6a1076324ab866e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,89 @@
+{
+  "name": "percona-server",
+  "full_name": "percona-server",
+  "oldname": null,
+  "aliases": [
+    "percona-server@8.0"
+  ],
+  "versioned_formulae": [
+    "percona-server@5.6"
+  ],
+  "desc": "Drop-in MySQL replacement",
+  "homepage": "https://www.percona.com",
+  "versions": {
+    "stable": "8.0.13-4",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-8.0.13-4_1.catalina.bottle.tar.gz",
+          "sha256": "4577cd017f8718e66ef11d5b6e1711d344292c0eb48b4431fc19c046fb40933c"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-8.0.13-4_1.mojave.bottle.tar.gz",
+          "sha256": "b9c1caebe201916cc335ea1c6bf7febd7ef6c246919f0c63075bba0d821c5637"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-8.0.13-4_1.high_sierra.bottle.tar.gz",
+          "sha256": "b2eee30e6a099b054261ca3d908fcf1e6365eb033de1ffe899d1d8886adb1265"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-8.0.13-4_1.sierra.bottle.tar.gz",
+          "sha256": "18ac0d1f2f3ab54720e30d0687e44dfdf135a1b464c854390e1e6aa9e32d90ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "readline",
+    "libedit",
+    "openssl@1.1"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null
+    }
+  ],
+  "conflicts_with": [
+    "mariadb",
+    "mysql",
+    "mysql-connector-c",
+    "mariadb-connector-c"
+  ],
+  "caveats": "We've installed your MySQL database without a root password. To secure it run:\n    mysql_secure_installation\nMySQL is configured to only allow connections from localhost by default\nTo connect run:\n    mysql -uroot\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

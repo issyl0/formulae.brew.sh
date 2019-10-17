@@ -1,0 +1,86 @@
+{
+  "name": "ykman",
+  "full_name": "ykman",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Tool for managing your YubiKey configuration",
+  "homepage": "https://developers.yubico.com/yubikey-manager/",
+  "versions": {
+    "stable": "3.1.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/ykman-3.1.0_1.mojave.bottle.tar.gz",
+          "sha256": "bbcdddf68a76536a6579fc903a32595bdc51ac369a6bdf9562d768bb5aa5f354"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ykman-3.1.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "e415bd795d6b7f43c673ea14f5c61beb6309ad18e0d9de30b84fd03f65afaa2a"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ykman-3.1.0_1.sierra.bottle.tar.gz",
+          "sha256": "7e943215909e0c4f0d98aba219be77ce4c1e921fd42b12781a3ddeaefba16e07"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/ykman-3.1.0_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "355050336d859af92034c70d81ddb5165e64d69f87ee599952f4e6d396db71c1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "swig",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libusb",
+    "openssl@1.1",
+    "python",
+    "ykpers",
+    "libffi",
+    "pcsc-lite"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

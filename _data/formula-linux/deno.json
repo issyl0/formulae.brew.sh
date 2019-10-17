@@ -1,0 +1,82 @@
+{
+  "name": "deno",
+  "full_name": "deno",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Command-line JavaScript / TypeScript engine",
+  "homepage": "https://deno.land/",
+  "versions": {
+    "stable": "0.20.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/deno-0.20.0.catalina.bottle.tar.gz",
+          "sha256": "fe1976eaad2a0190e5fad07a5bd11f2a80591b250a5a5bb5ca359f37ab50b9cf"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/deno-0.20.0.mojave.bottle.tar.gz",
+          "sha256": "7761f40d5936d00f95e20cdfa3dc998883db1e16cd17223d2dcd3e3c21ac52cb"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/deno-0.20.0.high_sierra.bottle.tar.gz",
+          "sha256": "25686f14ed244f5e95c02193e51bbc1c9a3506dcbcedcfb42ed82d8eb3a2d256"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "llvm",
+    "ninja",
+    "rust"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null
+    }
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

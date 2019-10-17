@@ -1,0 +1,76 @@
+{
+  "name": "fauna-shell",
+  "full_name": "fauna-shell",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Interactive shell for FaunaDB",
+  "homepage": "https://fauna.com/",
+  "versions": {
+    "stable": "0.9.7",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/fauna-shell-0.9.7.catalina.bottle.tar.gz",
+          "sha256": "905fe9671372aaec8d490759c46f8597d013f66daff374e9a15a85d7ae008570"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/fauna-shell-0.9.7.mojave.bottle.tar.gz",
+          "sha256": "59b6a49acda7a80f6f98f5a31936c032bda1930ce7219597a5a6b588921e43bf"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fauna-shell-0.9.7.high_sierra.bottle.tar.gz",
+          "sha256": "ffa70182046a3999e557ccf3fcc40065b6c1b3d43ba8ff71fdef18c9fbeb986a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,77 @@
+{
+  "name": "mdcat",
+  "full_name": "mdcat",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Show markdown documents on text terminals",
+  "homepage": "https://github.com/lunaryorn/mdcat",
+  "versions": {
+    "stable": "0.13.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.13.0.mojave.bottle.tar.gz",
+          "sha256": "03a6092a5f1c29f6d603dcb70d65370df4c766636355c5ba4ad2eae5eb234c37"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.13.0.high_sierra.bottle.tar.gz",
+          "sha256": "8eaebefd87230851d0c79f6b40076225a5a6051c176cd44173b04fa785fe7464"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.13.0.sierra.bottle.tar.gz",
+          "sha256": "6f49eb3e6378bbcf315a0fece01f6eb67c2ba9166d60a6a2f15afe5efe1dabe9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

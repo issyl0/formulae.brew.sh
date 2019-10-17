@@ -1,0 +1,80 @@
+{
+  "name": "starship",
+  "full_name": "starship",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "The cross-shell prompt for astronauts",
+  "homepage": "https://starship.rs",
+  "versions": {
+    "stable": "0.25.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/starship-0.25.0.catalina.bottle.tar.gz",
+          "sha256": "8e87eb431964641540c1d314613b48af6152b3b07f84f50b34dbb3443dde4ac7"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/starship-0.25.0.mojave.bottle.tar.gz",
+          "sha256": "f390b829988dc645fcd88f3a294e166bc21bf16106cfc52522285fe5789c0853"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/starship-0.25.0.high_sierra.bottle.tar.gz",
+          "sha256": "0325fe6c67adbf59f07820c3c56300c14d8cc60bdb36de2125173fbeebd167ad"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/starship-0.25.0.x86_64_linux.bottle.tar.gz",
+          "sha256": "7e60939920e4e4b54a9f5a041a30087aef516d6965c83abd5434893cef3abcef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

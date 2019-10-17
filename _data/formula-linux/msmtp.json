@@ -1,0 +1,81 @@
+{
+  "name": "msmtp",
+  "full_name": "msmtp",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "SMTP client that can be used as an SMTP plugin for Mutt",
+  "homepage": "https://marlam.de/msmtp/",
+  "versions": {
+    "stable": "1.8.5",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.8.5.catalina.bottle.1.tar.gz",
+          "sha256": "99970d911f8d68c08d77a191880f18f20b79a525881925cb236eebd5ecdf3917"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.8.5.mojave.bottle.1.tar.gz",
+          "sha256": "7fb3d22477c6b338159bf8fa5b21c764e7add5e941b03fbbe293c08d3413b13e"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.8.5.high_sierra.bottle.1.tar.gz",
+          "sha256": "56d46b248e6e5636ddea99f7651ba0b8fe20b557a82ddf2610c7800b5f2e371e"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.8.5.x86_64_linux.bottle.1.tar.gz",
+          "sha256": "33050cd3177322d93bc7807440fbd61ad3ba5d93e30cb72fbd75a298f54d527d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gnutls",
+    "libsecret"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

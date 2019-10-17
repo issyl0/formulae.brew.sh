@@ -1,0 +1,80 @@
+{
+  "name": "ucloud",
+  "full_name": "ucloud",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "The official tool to managment your ucloud services",
+  "homepage": "https://www.ucloud.cn",
+  "versions": {
+    "stable": "0.1.26",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/ucloud-0.1.26.catalina.bottle.tar.gz",
+          "sha256": "e0cbdfd78c81915ff0255631c32cbed943b53afd347af9f675ad93c43c6ede90"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/ucloud-0.1.26.mojave.bottle.tar.gz",
+          "sha256": "f90d802950a62dda6dd444af5aed73eb9fcb7707d9af989626054c89f0bc8163"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ucloud-0.1.26.high_sierra.bottle.tar.gz",
+          "sha256": "dfa167ee65df70a51f84cf53e5554242b35b97e9b5c8bf654c6f52b507965065"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/ucloud-0.1.26.x86_64_linux.bottle.tar.gz",
+          "sha256": "aef2ad6b668010429e50783f82dd87d5926d822906dd6498b697d8a2ea4e5d18"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,82 @@
+{
+  "name": "petsc",
+  "full_name": "petsc",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Portable, Extensible Toolkit for Scientific Computation (real)",
+  "homepage": "https://www.mcs.anl.gov/petsc/",
+  "versions": {
+    "stable": "3.11.3",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.11.3_2.mojave.bottle.tar.gz",
+          "sha256": "a5523aa2e3aa39e59c5b167677f92adeb00c3256c35334ce07a2094d9f3c0f12"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.11.3_2.high_sierra.bottle.tar.gz",
+          "sha256": "bfb9d19b954a7fbefee250f34e9c1bca91064b98d873f8024a75ce1d19c093e0"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.11.3_2.sierra.bottle.tar.gz",
+          "sha256": "361141ddfbbce125ae403f327b5fa5fdd4838b97be5dec04ab907ccace210154"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "hdf5",
+    "hwloc",
+    "metis",
+    "netcdf",
+    "open-mpi",
+    "scalapack",
+    "suite-sparse"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+    "petsc-complex"
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

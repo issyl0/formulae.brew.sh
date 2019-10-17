@@ -1,0 +1,81 @@
+{
+  "name": "pspg",
+  "full_name": "pspg",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Unix pager optimized for psql",
+  "homepage": "https://github.com/okbob/pspg",
+  "versions": {
+    "stable": "2.1.7",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-2.1.7.catalina.bottle.tar.gz",
+          "sha256": "dcb8b0b63d662e4a4ac5b06738395887d93e61c021a01e3d3969a3e98214a9c0"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-2.1.7.mojave.bottle.tar.gz",
+          "sha256": "758d4e6d1c83344a5362097dc4eb8fa44cb61f7c64e57f00f3540742db76e253"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-2.1.7.high_sierra.bottle.tar.gz",
+          "sha256": "0ee7ef85665c403ae915fc68004e01c9491cbbbc4b0b71fee6049cf42dcc3b2b"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-2.1.7.x86_64_linux.bottle.tar.gz",
+          "sha256": "3ae17b16551cf870041414076bec6611a2ceac8a6ed07c59d99521f72d49fa82"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "ncurses",
+    "readline"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

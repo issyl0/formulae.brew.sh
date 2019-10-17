@@ -1,0 +1,77 @@
+{
+  "name": "lsdvd",
+  "full_name": "lsdvd",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Read the content info of a DVD",
+  "homepage": "https://sourceforge.net/projects/lsdvd",
+  "versions": {
+    "stable": "0.17",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17_1.mojave.bottle.tar.gz",
+          "sha256": "dedcdf6af7a20307df4b86fd6dee6842031ecc99fcadfcb2691b2a36ecaa2ab6"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17_1.high_sierra.bottle.tar.gz",
+          "sha256": "9a413bfe449780947f185252ad35d6aad1fcee718e561f283ee12a7761267299"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17_1.sierra.bottle.tar.gz",
+          "sha256": "9ef88f96d637feeaf0b58d1160f0b2a19fd1531083916d89d1c7e09b1e68a1ab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libdvdcss",
+    "libdvdread"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

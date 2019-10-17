@@ -1,0 +1,88 @@
+{
+  "name": "links",
+  "full_name": "links",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Lynx-like WWW browser that supports tables, menus, etc.",
+  "homepage": "http://links.twibright.com/",
+  "versions": {
+    "stable": "2.20.1",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/links-2.20.1.catalina.bottle.tar.gz",
+          "sha256": "02e54327ff6086906bc9d1e499298f52ae5032b2e68f625541a9151cf23dcee5"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/links-2.20.1.mojave.bottle.tar.gz",
+          "sha256": "66ed3179fd7e8e439d3c19b5e11a9903a16ac994baef6aa3b6595e697ebce14d"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/links-2.20.1.high_sierra.bottle.tar.gz",
+          "sha256": "89b10181d05992aead0afb46a818c9fa3c1218b215146efe864574c877c84545"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/links-2.20.1.sierra.bottle.tar.gz",
+          "sha256": "aa2902faaaff12df4013e05c7cd85ff09be788378729091fc0cf140a18c060c2"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/links-2.20.1.x86_64_linux.bottle.tar.gz",
+          "sha256": "b039f30c1e0400edc2ca877dbf873dd78330fd3c866e13d83017d91922436a9d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "jpeg",
+    "librsvg",
+    "libtiff",
+    "openssl@1.1",
+    "linuxbrew/xorg/xorg"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "verilator",
+  "full_name": "verilator",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Verilog simulator",
+  "homepage": "https://www.veripool.org/wiki/verilator",
+  "versions": {
+    "stable": "4.018",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/verilator-4.018.catalina.bottle.tar.gz",
+          "sha256": "663562fc11c3415f3a455a76913e124c8c2ebafd41843b20ba2890502d0d58ea"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/verilator-4.018.mojave.bottle.tar.gz",
+          "sha256": "66754e828ca8b23ab4aadc78172915b9a8100c577a5e5974e95d3ce8d94c2eea"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/verilator-4.018.high_sierra.bottle.tar.gz",
+          "sha256": "90caf39e46aaeef978c8f403ecaf3f876d99473d4dc822df9cc83367f83390e7"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/verilator-4.018.sierra.bottle.tar.gz",
+          "sha256": "6c4d40b6ce3fdb1f24beb99d9d57e1471cbb40f4e8fbe3f6c90071f616e0789a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

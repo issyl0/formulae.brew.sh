@@ -1,0 +1,87 @@
+{
+  "name": "folly",
+  "full_name": "folly",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Collection of reusable C++ library artifacts developed at Facebook",
+  "homepage": "https://github.com/facebook/folly",
+  "versions": {
+    "stable": "2019.10.07.00",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2019.10.07.00.catalina.bottle.tar.gz",
+          "sha256": "964767e7816b4c7ea0577773e589770d077468294a5fb8983b549dc702b7d6b5"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2019.10.07.00.mojave.bottle.tar.gz",
+          "sha256": "2f978dd2c076ce81e22b449687ed5b980938eed302c04275c85253b123ec4f22"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2019.10.07.00.high_sierra.bottle.tar.gz",
+          "sha256": "f2c54447d9dae0c25f24076beac8ddf2d9005d9e595f3d7b3bb3946bc60233a2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "double-conversion",
+    "gflags",
+    "glog",
+    "libevent",
+    "lz4",
+    "openssl@1.1",
+    "snappy",
+    "xz",
+    "zstd",
+    "python"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

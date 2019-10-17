@@ -1,0 +1,99 @@
+{
+  "name": "qt",
+  "full_name": "qt",
+  "oldname": "qt5",
+  "aliases": [
+    "qt5"
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Cross-platform application and UI framework",
+  "homepage": "https://www.qt.io/",
+  "versions": {
+    "stable": "5.13.1",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.13.1_1.catalina.bottle.tar.gz",
+          "sha256": "d734eff21324701858605d7896763cbba2440c1350969cd3804d3969b3147d89"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.13.1_1.mojave.bottle.tar.gz",
+          "sha256": "a58effe9b3aa460fcd6cc41aa4cef235b6e88d83fe1c863100a6423a37482f8b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.13.1_1.high_sierra.bottle.tar.gz",
+          "sha256": "eae71268c2333dd6429a704123021ccca05737a629f89d5f7efbf1b1b7c0250b"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.13.1_1.sierra.bottle.tar.gz",
+          "sha256": "3af3d51d19936f6e46bab0f1dc6c3b1e650090796d74110a2b607b985006b0b1"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.13.1_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "eddf9aa0c4a56e4a09762510f0dbeb85e817357a18c0b3eb384f67230d2f55b6"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fontconfig",
+    "glib",
+    "icu4c",
+    "libproxy",
+    "pulseaudio",
+    "python@2",
+    "sqlite",
+    "systemd",
+    "libxkbcommon",
+    "linuxbrew/xorg/mesa",
+    "linuxbrew/xorg/xcb-util-image",
+    "linuxbrew/xorg/xcb-util-keysyms",
+    "linuxbrew/xorg/xcb-util-renderutil",
+    "linuxbrew/xorg/xcb-util",
+    "linuxbrew/xorg/xcb-util-wm",
+    "linuxbrew/xorg/xorg"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": "We agreed to the Qt open source license for you.\nIf this is unacceptable you should uninstall.\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

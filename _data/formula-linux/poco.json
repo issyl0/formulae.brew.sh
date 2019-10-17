@@ -1,0 +1,80 @@
+{
+  "name": "poco",
+  "full_name": "poco",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "C++ class libraries for building network and internet-based applications",
+  "homepage": "https://pocoproject.org/",
+  "versions": {
+    "stable": "1.9.3",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/poco-1.9.3_1.catalina.bottle.tar.gz",
+          "sha256": "bfbe859311d17bdd30313698ac04b87eb6c15f2ed876f7114c92a1218538847f"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/poco-1.9.3_1.mojave.bottle.tar.gz",
+          "sha256": "b1d99b95f5db087fd940730f1a18b10150678222545becc5930b1d82b4fa8291"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/poco-1.9.3_1.high_sierra.bottle.tar.gz",
+          "sha256": "e81534b6338bf2ee789a34c58947f460a30f02df717bf88b6cfd2045424646e5"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/poco-1.9.3_1.sierra.bottle.tar.gz",
+          "sha256": "c4c316c9c37ec16007d688e2fadda3c9b704914d63a8cbbbb98fd686ccc5b7d6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "openssl@1.1"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,81 @@
+{
+  "name": "terraform",
+  "full_name": "terraform",
+  "oldname": null,
+  "aliases": [
+    "terraform@0.12"
+  ],
+  "versioned_formulae": [
+    "terraform@0.11"
+  ],
+  "desc": "Tool to build, change, and version infrastructure",
+  "homepage": "https://www.terraform.io/",
+  "versions": {
+    "stable": "0.12.10",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.10.catalina.bottle.tar.gz",
+          "sha256": "4039e07ab19297d4a6a576c3fb35ee84e4d4b919e95438cfcce951d743c8e74e"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.10.mojave.bottle.tar.gz",
+          "sha256": "e2b996ae9a874b8eaa935112a0b4c2c3813dcc7e99ac248f870852dbd8a24e8c"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.10.high_sierra.bottle.tar.gz",
+          "sha256": "6c0a972f3a0ba833637aa72a464189aed5cd8fc6c10eca4aa7386a92c133d9bc"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.10.x86_64_linux.bottle.tar.gz",
+          "sha256": "b4cfacb695f0891f0ea62bb904cfd94354afd753613156b91b2cbab72afadcbd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go",
+    "gox"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+    "tfenv"
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

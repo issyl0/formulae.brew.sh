@@ -1,0 +1,85 @@
+{
+  "name": "kubernetes-helm",
+  "full_name": "kubernetes-helm",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "The Kubernetes package manager",
+  "homepage": "https://helm.sh/",
+  "versions": {
+    "stable": "2.14.3",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.14.3.catalina.bottle.tar.gz",
+          "sha256": "4745dd0bc615ecb4ed1ab0cf0a2bedc91e8fc6d468d9bdf253f741e2ab4d06ab"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.14.3.mojave.bottle.tar.gz",
+          "sha256": "35424b638f34e451a572959e2548c97a18589a97e997053f4c25e39511e17ac8"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.14.3.high_sierra.bottle.tar.gz",
+          "sha256": "b0dabf5935ba18efd9c247f75b8b50efcdb34e6f2d74bc8ccb781bc78ca612c3"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.14.3.sierra.bottle.tar.gz",
+          "sha256": "4e43a2e5ca35248314a84d9e791de028a9634b7060ecb6188192f59e7010faec"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.14.3.x86_64_linux.bottle.tar.gz",
+          "sha256": "c5192cfe3057b03d7b24255d93f134783a61b276fa2d57239c8553c839c47fda"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "glide",
+    "go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,84 @@
+{
+  "name": "libdvdread",
+  "full_name": "libdvdread",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "C library for reading DVD-video images",
+  "homepage": "https://www.videolan.org/developers/libdvdnav.html",
+  "versions": {
+    "stable": "6.0.1",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdread-6.0.1.catalina.bottle.tar.gz",
+          "sha256": "cffe78e773764ebc2067a03fa875681acad0258c7cda6a6f989b0117853a9462"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdread-6.0.1.mojave.bottle.tar.gz",
+          "sha256": "3919d408e59a7b7b50a22e088d347d78e0e5c1a2cf4c9d557210954a0aba9311"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdread-6.0.1.high_sierra.bottle.tar.gz",
+          "sha256": "71d7adc722864315fcf72d6011b7932e5a038562585ec92ac1adcd7c22bfbcf2"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdread-6.0.1.sierra.bottle.tar.gz",
+          "sha256": "e061208a45c20034ca9ef9a49f6b49881dc178e426bb65134c9b61eb285abc71"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdread-6.0.1.x86_64_linux.bottle.tar.gz",
+          "sha256": "9ab20b138ee3458bd084834191d887e50879ba9a7ed50d89448cfd9a23ac0893"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "libdvdcss"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

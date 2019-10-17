@@ -1,0 +1,84 @@
+{
+  "name": "libspectre",
+  "full_name": "libspectre",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Small library for rendering Postscript documents",
+  "homepage": "https://wiki.freedesktop.org/www/Software/libspectre/",
+  "versions": {
+    "stable": "0.2.8",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/libspectre-0.2.8_8.catalina.bottle.tar.gz",
+          "sha256": "45b936c0d2a986c75027dccba18c276e7ee7a013b3ba218a7b9c6a93b57593b5"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/libspectre-0.2.8_8.mojave.bottle.tar.gz",
+          "sha256": "1a798aea82249189e4f54684279b8f6b077c8aa2bf3aafc66627270688169488"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libspectre-0.2.8_8.high_sierra.bottle.tar.gz",
+          "sha256": "15e69692be7208dce904de97c3386cbb306ddde707a8ee077d270760cd4330da"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libspectre-0.2.8_8.sierra.bottle.tar.gz",
+          "sha256": "e1420e4a0de83c9fc587ec8a072b65e59ac7de789b2b31435b0f71e70aa7ac6e"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/libspectre-0.2.8_8.x86_64_linux.bottle.tar.gz",
+          "sha256": "b34c56f18cf407837b5911dac154270fd1962763d936a2d3ad00b54337e1b9af"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "ghostscript"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

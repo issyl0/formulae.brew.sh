@@ -1,0 +1,76 @@
+{
+  "name": "cocoapods",
+  "full_name": "cocoapods",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Dependency manager for Cocoa projects",
+  "homepage": "https://cocoapods.org/",
+  "versions": {
+    "stable": "1.8.3",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/cocoapods-1.8.3.catalina.bottle.tar.gz",
+          "sha256": "a0a43af8341910cd0d4d58d242ef5c6ff9b0d1f2fa36c941cd84d1d35418fd87"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/cocoapods-1.8.3.mojave.bottle.tar.gz",
+          "sha256": "079f180eb3f8e93cf485fd8da4a469848e669cd0afa2646ac0b298c533f67aee"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/cocoapods-1.8.3.high_sierra.bottle.tar.gz",
+          "sha256": "412208a9da3ba6c91ffcafbe5a11d5d829a545066ffd5a5b84357437afbe5338"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

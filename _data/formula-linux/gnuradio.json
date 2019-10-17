@@ -1,0 +1,87 @@
+{
+  "name": "gnuradio",
+  "full_name": "gnuradio",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "SDK providing the signal processing runtime and processing blocks",
+  "homepage": "https://gnuradio.org/",
+  "versions": {
+    "stable": "3.7.13.4",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 10,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_10.catalina.bottle.tar.gz",
+          "sha256": "f36fef90f0118a04b3f7cdddf109d99388e01ccdf0375224aa753bc68318bac9"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_10.mojave.bottle.tar.gz",
+          "sha256": "215229e531d21fe319f7d5a861e4d567b5acbcad6775c8d7dd3389d535950c4a"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_10.high_sierra.bottle.tar.gz",
+          "sha256": "774f51b9cb123e9ad9b4560802099c5050447855c931454d4473f107e818223e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "pkg-config",
+    "sphinx-doc",
+    "swig"
+  ],
+  "dependencies": [
+    "boost",
+    "fftw",
+    "gsl",
+    "numpy@1.16",
+    "portaudio",
+    "python@2",
+    "uhd",
+    "zeromq"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

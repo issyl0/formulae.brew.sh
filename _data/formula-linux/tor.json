@@ -1,0 +1,87 @@
+{
+  "name": "tor",
+  "full_name": "tor",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Anonymizing overlay network for TCP",
+  "homepage": "https://www.torproject.org/",
+  "versions": {
+    "stable": "0.4.1.5",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.4.1.5_1.catalina.bottle.tar.gz",
+          "sha256": "8acf258f4b4dacd5c6d5c04996036081ed492f7dc6a82fa2b0dc91be78d3d1f3"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.4.1.5_1.mojave.bottle.tar.gz",
+          "sha256": "e159fd2d345cacd8af4a8a969eea7ec79613ffd1577e819c2025fdd2326d869c"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.4.1.5_1.high_sierra.bottle.tar.gz",
+          "sha256": "c75048ce47e1549564e7d25c496994d3cdbe7ffec5ad4cabd2125fbc098dfba9"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.4.1.5_1.sierra.bottle.tar.gz",
+          "sha256": "840246f38eb54e5ab09b79f6da0aec814493abd376324740e7359c9088dee230"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.4.1.5_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "83e2e9c9d77d5f51d6d732799a1828f78b6a22f90d16628499fa29f7f15b3dfc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent",
+    "libscrypt",
+    "openssl@1.1",
+    "zlib"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

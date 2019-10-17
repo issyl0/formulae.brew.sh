@@ -1,0 +1,80 @@
+{
+  "name": "swagger-codegen",
+  "full_name": "swagger-codegen",
+  "oldname": null,
+  "aliases": [
+    "swagger-codegen@3"
+  ],
+  "versioned_formulae": [
+    "swagger-codegen@2"
+  ],
+  "desc": "Generate clients, server stubs, and docs from an OpenAPI spec",
+  "homepage": "https://swagger.io/swagger-codegen/",
+  "versions": {
+    "stable": "3.0.11",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/swagger-codegen-3.0.11.catalina.bottle.tar.gz",
+          "sha256": "a097d4243624b45fe43e7307a7d25b8a23392e40172220f501e2c3219e5111b1"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/swagger-codegen-3.0.11.mojave.bottle.tar.gz",
+          "sha256": "433f1df40951193974ed0b2e10b2f1493f0dc21839ac84ab2e9d538c92d17f0b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/swagger-codegen-3.0.11.high_sierra.bottle.tar.gz",
+          "sha256": "3896f6d35dfab60c83a3e66f6d79b6358f7656b1c25091d4d690ebeb4885f295"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/swagger-codegen-3.0.11.sierra.bottle.tar.gz",
+          "sha256": "7cbb8df8ff8b4784f491a0fdcaf88fef425c20c0569343970941df5d3fd0bc46"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "maven"
+  ],
+  "dependencies": [
+    "adoptopenjdk"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

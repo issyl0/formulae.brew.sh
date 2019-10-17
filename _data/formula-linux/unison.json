@@ -1,0 +1,84 @@
+{
+  "name": "unison",
+  "full_name": "unison",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "File synchronization tool for OSX",
+  "homepage": "https://www.cis.upenn.edu/~bcpierce/unison/",
+  "versions": {
+    "stable": "2.51.2",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.mojave.bottle.tar.gz",
+          "sha256": "55a361bda2f5a43073508d25702eea6b16470f74619e4a6d1058f7fc89f901e5"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.high_sierra.bottle.tar.gz",
+          "sha256": "1622a673b2bc8ef6d00dd754c26cfd3d5f737ed1dc48a46bbce486fa0f766181"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.sierra.bottle.tar.gz",
+          "sha256": "fd00605490100ec224f5d86a79da341ce639e1d0772fb48cc133672d1bc2a812"
+        },
+        "el_capitan": {
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.el_capitan.bottle.tar.gz",
+          "sha256": "53c945e143961a5d158a36980664d5be7153b84074bfa4220eee2db35404b7d3"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.x86_64_linux.bottle.tar.gz",
+          "sha256": "2851d8102ba8f04f1d8a14c1303d9d1f0a6ed10ec4a819a6c3db0aa9377b6a17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,82 @@
+{
+  "name": "octant",
+  "full_name": "octant",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Kubernetes introspection tool for developers",
+  "homepage": "https://github.com/vmware/octant",
+  "versions": {
+    "stable": "0.7.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/octant-0.7.0.catalina.bottle.tar.gz",
+          "sha256": "adff5d7e62c5d40c887adf3ba788dd5424d85fd09618f439230d50d1f28cfbc4"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/octant-0.7.0.mojave.bottle.tar.gz",
+          "sha256": "7c3f8a3f5d2f8888368bf6f24c0b28c4d516ed005c3c5aba3c485fc72eda1414"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/octant-0.7.0.high_sierra.bottle.tar.gz",
+          "sha256": "b60233f74ae10e0b5bdb3f7003676db10e2d8daf177ddd0245389521001379a6"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/octant-0.7.0.sierra.bottle.tar.gz",
+          "sha256": "bcab9204ffb24a70f5a9d838c1494e932d641c281b5ba6c13a87ab4aca90ebd3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go",
+    "node@10",
+    "protoc-gen-go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

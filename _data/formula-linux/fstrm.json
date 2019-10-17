@@ -1,0 +1,84 @@
+{
+  "name": "fstrm",
+  "full_name": "fstrm",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Frame Streams implementation in C",
+  "homepage": "https://github.com/farsightsec/fstrm",
+  "versions": {
+    "stable": "0.5.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.5.0_1.catalina.bottle.tar.gz",
+          "sha256": "86ae7db5981369a29e64cc87dcd6bfd953825c27fb123eb194ae8cb0f35e34a7"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.5.0_1.mojave.bottle.tar.gz",
+          "sha256": "4359da87e49dfec39cc7eebed229674ae8c250803a67c9a89eaa0fa0e4d64a05"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.5.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "a38b141706f100183e174cff8ad5f671a15d1df2091d9d920b734bf677636075"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.5.0_1.sierra.bottle.tar.gz",
+          "sha256": "8a099ab2ee34e901c0349119aa03f380c81f9b55f320e4fa48ed7015f5e4cc49"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.5.0_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "bc25a6e954c66d9778aa53e4b181bcca9643ec68b49f431ec6b4215d522152f2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

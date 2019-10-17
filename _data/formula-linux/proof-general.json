@@ -1,0 +1,81 @@
+{
+  "name": "proof-general",
+  "full_name": "proof-general",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Emacs-based generic interface for theorem provers",
+  "homepage": "https://proofgeneral.github.io",
+  "versions": {
+    "stable": "4.4",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.mojave.bottle.2.tar.gz",
+          "sha256": "fb33f343985000a24f2f3b8737ac8732d22cdfc43c178b089652abe50297c54b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.high_sierra.bottle.2.tar.gz",
+          "sha256": "da11c2494db95b66a9db3528a98198878d1ac56cc63ac104b6bedafb1676a9a4"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.sierra.bottle.2.tar.gz",
+          "sha256": "da11c2494db95b66a9db3528a98198878d1ac56cc63ac104b6bedafb1676a9a4"
+        },
+        "el_capitan": {
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.el_capitan.bottle.2.tar.gz",
+          "sha256": "da11c2494db95b66a9db3528a98198878d1ac56cc63ac104b6bedafb1676a9a4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "texi2html",
+    "texinfo"
+  ],
+  "dependencies": [
+    "emacs"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": "HTML documentation is available in: $(brew --prefix)/share/doc/proof-general\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

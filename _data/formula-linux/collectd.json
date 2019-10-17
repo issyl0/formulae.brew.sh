@@ -1,0 +1,84 @@
+{
+  "name": "collectd",
+  "full_name": "collectd",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Statistics collection and monitoring daemon",
+  "homepage": "https://collectd.org/",
+  "versions": {
+    "stable": "5.9.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.9.0_4.catalina.bottle.1.tar.gz",
+          "sha256": "5d369ad4ea6c87986421d1d0ad567957bb839dc1843463e836cb177f33bd8ddf"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.9.0_4.mojave.bottle.1.tar.gz",
+          "sha256": "5a54446ad5d04f710d66b4bd9c70507226223aae0026bc58491653eece66b366"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.9.0_4.high_sierra.bottle.1.tar.gz",
+          "sha256": "b6e67770ed8f5fa889f4fc7b6b688b1559114c81615d414daa3b92862850ecc4"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.9.0_4.x86_64_linux.bottle.1.tar.gz",
+          "sha256": "1270455fde011a5a04a4f192f35d805fe4f4b5f8909ae17f6c917ac93e3c8d95"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libgcrypt",
+    "libtool",
+    "net-snmp",
+    "riemann-client",
+    "perl"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

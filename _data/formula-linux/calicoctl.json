@@ -1,0 +1,80 @@
+{
+  "name": "calicoctl",
+  "full_name": "calicoctl",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Calico CLI tool",
+  "homepage": "https://www.projectcalico.org",
+  "versions": {
+    "stable": "3.9.2",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/calicoctl-3.9.2.catalina.bottle.tar.gz",
+          "sha256": "7452d9dd0e1bd83d7f7b34ef9bfca8acd27c33fce2f554997be726d471300182"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/calicoctl-3.9.2.mojave.bottle.tar.gz",
+          "sha256": "96562890107ff4bf141818f6772a3f61b46e8f71b2262f1fc5d96b10896e19e9"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/calicoctl-3.9.2.high_sierra.bottle.tar.gz",
+          "sha256": "01ee330f4b9f9c3ddbcfd0d6fea283aac23be657c4a6adc9657d0e7a2e6fef1b"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/calicoctl-3.9.2.x86_64_linux.bottle.tar.gz",
+          "sha256": "e023b8fee8a19f389e42ed314bd9e5de2250930b6de043c5381bc8e64e620b20"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

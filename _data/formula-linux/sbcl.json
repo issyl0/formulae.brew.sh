@@ -1,0 +1,76 @@
+{
+  "name": "sbcl",
+  "full_name": "sbcl",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Steel Bank Common Lisp system",
+  "homepage": "http://www.sbcl.org/",
+  "versions": {
+    "stable": "1.5.7",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/sbcl-1.5.7.mojave.bottle.tar.gz",
+          "sha256": "03b4defdea7af26e6b1e78c61b1d77071f3b951c273d0c2fc35925ff9823de3b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/sbcl-1.5.7.high_sierra.bottle.tar.gz",
+          "sha256": "e8c571577442bec73ca4ed1f91f88643219a93fc467177708ad22ca14df9496a"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/sbcl-1.5.7.x86_64_linux.bottle.tar.gz",
+          "sha256": "a98924f8a7602294fc076e0116bdfc01fc8b3641d2cee759e973dc4f7c5cad5d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

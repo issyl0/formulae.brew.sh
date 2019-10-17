@@ -1,0 +1,82 @@
+{
+  "name": "azure-cli",
+  "full_name": "azure-cli",
+  "oldname": null,
+  "aliases": [
+    "az"
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Microsoft Azure CLI 2.0",
+  "homepage": "https://docs.microsoft.com/cli/azure/overview",
+  "versions": {
+    "stable": "2.0.75",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/azure-cli-2.0.75.catalina.bottle.tar.gz",
+          "sha256": "176043dcebf92af4f07316fc47f1524ca93330f3196c4eceab4f2ca561b27a93"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/azure-cli-2.0.75.mojave.bottle.tar.gz",
+          "sha256": "973c011885759e26895c91a1386796768c9fa025c07c4bb845e641bcc06cc8c1"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/azure-cli-2.0.75.high_sierra.bottle.tar.gz",
+          "sha256": "0d9296e7802f5b8c44c09f00071a1e59a8a3c88afd4682aa6c4479ee22a93547"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/azure-cli-2.0.75.x86_64_linux.bottle.tar.gz",
+          "sha256": "fdf7cf48ee40738cb50c00d3b726e3ad0eb9c50423b30a0951353a1123f23075"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "python",
+    "libffi"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

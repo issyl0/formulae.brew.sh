@@ -1,0 +1,82 @@
+{
+  "name": "sdlpop",
+  "full_name": "sdlpop",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Open-source port of Prince of Persia",
+  "homepage": "https://github.com/NagyD/SDLPoP",
+  "versions": {
+    "stable": "1.19",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.19.catalina.bottle.tar.gz",
+          "sha256": "686310fe7699a5e291ea7e05006b4210609c564af7fe5dc7e52bf61fae26400a"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.19.mojave.bottle.tar.gz",
+          "sha256": "b8f410ee151aefc11d905c7ccfff17cee6235988dfd7d2615984fd0ab40a532b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.19.high_sierra.bottle.tar.gz",
+          "sha256": "759d1be2124d3cbd23e1364e950eb2a4fdb713da491119e61da269ca2f5c388d"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.19.sierra.bottle.tar.gz",
+          "sha256": "74f83f14a15a8f612e7669e29a6ea6d45ff3f3610a31184de02bee11cc32a498"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": "Save and replay files are stored in the following directory:\n  $(brew --prefix)/var/sdlpop\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

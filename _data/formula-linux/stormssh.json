@@ -1,0 +1,76 @@
+{
+  "name": "stormssh",
+  "full_name": "stormssh",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Command-line tool to manage your ssh connections",
+  "homepage": "https://github.com/emre/storm",
+  "versions": {
+    "stable": "0.7.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/stormssh-0.7.0.mojave.bottle.tar.gz",
+          "sha256": "ff0a5b97f1450f89fe8ccd0ccb04067200db88fd36758b3847d06fa678f1ce98"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/stormssh-0.7.0.high_sierra.bottle.tar.gz",
+          "sha256": "b9eee122d5ff26e4bfea039705f3bc6aa7677556bf904fa3b9afda495d58c278"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/stormssh-0.7.0.sierra.bottle.tar.gz",
+          "sha256": "8a359d6072d36572383630fe7632cc59b8526993dc7071d3fca88a0bcc486226"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+    "storm"
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

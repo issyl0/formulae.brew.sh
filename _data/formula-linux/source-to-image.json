@@ -1,0 +1,84 @@
+{
+  "name": "source-to-image",
+  "full_name": "source-to-image",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Tool for building source and injecting into docker images",
+  "homepage": "https://github.com/openshift/source-to-image",
+  "versions": {
+    "stable": "1.1.14",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-to-image-1.1.14.catalina.bottle.tar.gz",
+          "sha256": "055b98a4f618393b452fbfe1cdc9f991f6431a74a95c2e14f04720fcff7e7f4c"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-to-image-1.1.14.mojave.bottle.tar.gz",
+          "sha256": "179ed06aa8cee8c8c7c6b8658eed696359170116c2ac366dadfaf086d533b033"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-to-image-1.1.14.high_sierra.bottle.tar.gz",
+          "sha256": "a315100e844a70c78cf11eae24c70ff663f239fe79274da5b99223fbe6081a87"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-to-image-1.1.14.sierra.bottle.tar.gz",
+          "sha256": "02ffcf2849f2051b0a7355b626ca06b2b2560ce09f68fff64f6b7a79966c750b"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-to-image-1.1.14.x86_64_linux.bottle.tar.gz",
+          "sha256": "affb12d302fff61a4f282dd8bc668481d19479299393b9a91ef6ad4a7e4a1be1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,76 @@
+{
+  "name": "dmd",
+  "full_name": "dmd",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "D programming language compiler for macOS",
+  "homepage": "https://dlang.org/",
+  "versions": {
+    "stable": "2.087.1",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/dmd-2.087.1.mojave.bottle.tar.gz",
+          "sha256": "33233f3f3cd9eb6eddbf2ad747c495db78cbdb3a4525b9fe481716862bd4702b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dmd-2.087.1.high_sierra.bottle.tar.gz",
+          "sha256": "3beccad53272d13fb53765e585b14bc96b41115ee0bd61f3f5024abfa2349c2d"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dmd-2.087.1.sierra.bottle.tar.gz",
+          "sha256": "eee1c3285cddff912eb08e648890ddfd753d71aef6dfa5f16517c1e559abfe30"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "unzip"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

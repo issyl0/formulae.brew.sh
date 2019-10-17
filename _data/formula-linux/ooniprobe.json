@@ -1,0 +1,81 @@
+{
+  "name": "ooniprobe",
+  "full_name": "ooniprobe",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Network interference detection tool",
+  "homepage": "https://ooni.torproject.org/",
+  "versions": {
+    "stable": "2.3.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0_1.mojave.bottle.tar.gz",
+          "sha256": "72fd33b2be5c4f7d278e8e9983c891da43b15bcf3a0371365730dc1c889bd6f0"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "e4bc7f80ccc41cfdf01f70f26a517234d7c82819b16c6d8d94816a31848d6957"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0_1.sierra.bottle.tar.gz",
+          "sha256": "25c2a75c61b719091ad68c1494836fd7f30348d537454360c8a1d8feda7ef66c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "geoip",
+    "libdnet",
+    "libyaml",
+    "openssl@1.1",
+    "python@2",
+    "tor"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": "Decks are installed to $(brew --prefix)/opt/ooniprobe/share/ooniprobe/decks.\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

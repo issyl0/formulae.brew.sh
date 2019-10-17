@@ -1,0 +1,76 @@
+{
+  "name": "firebase-cli",
+  "full_name": "firebase-cli",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Firebase command-line tools",
+  "homepage": "https://firebase.google.com/docs/cli/",
+  "versions": {
+    "stable": "7.5.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-7.5.0.catalina.bottle.tar.gz",
+          "sha256": "7651114654b054fb08358a30f008b9ef86dfc89ce55a88e48223a47a3d717a06"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-7.5.0.mojave.bottle.tar.gz",
+          "sha256": "d071e8c1f7f720adac3c29ce74246de2a85549c4a8f85a4cc89fc75197c23c9e"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-7.5.0.high_sierra.bottle.tar.gz",
+          "sha256": "610cb27b9dfa3ce63d078bfd3cf6aabfb4361c3f9446148285a781a58b7464a3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

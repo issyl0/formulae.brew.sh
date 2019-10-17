@@ -1,0 +1,84 @@
+{
+  "name": "dfix",
+  "full_name": "dfix",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Auto-upgrade tool for D source code",
+  "homepage": "https://github.com/dlang-community/dfix",
+  "versions": {
+    "stable": "0.3.5",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/dfix-0.3.5.mojave.bottle.tar.gz",
+          "sha256": "f0e31bef3fb90648a84bd1ba54d87c9d1baff75bc0f6038987f19cfe31a1f610"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dfix-0.3.5.high_sierra.bottle.tar.gz",
+          "sha256": "6469d400a0d8e44247410d3250bb53080e6822747252a68883e2bb9e03aeb282"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dfix-0.3.5.sierra.bottle.tar.gz",
+          "sha256": "ff44843ec1e5040e1d2313f88610f27d7712f883c6b5f4030f24a9ad14dd4996"
+        },
+        "el_capitan": {
+          "url": "https://linuxbrew.bintray.com/bottles/dfix-0.3.5.el_capitan.bottle.tar.gz",
+          "sha256": "dff56042492f091f6877bbb452608cebb3571dbf9302cd411a63222671507838"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/dfix-0.3.5.x86_64_linux.bottle.tar.gz",
+          "sha256": "cb8e6f214ad8352a9b9efcc1771e0e4e909a295c6af44a93658598fb8f099550"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "dmd"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

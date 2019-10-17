@@ -1,0 +1,76 @@
+{
+  "name": "nzbget",
+  "full_name": "nzbget",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Binary newsgrabber for nzb files",
+  "homepage": "https://nzbget.net/",
+  "versions": {
+    "stable": "21.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-21.0_1.mojave.bottle.tar.gz",
+          "sha256": "1d69e26d929d2a1be4824ea8c2134d543033462302bc5527269d5ca7b1b2c575"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-21.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "862bd9889d1590b8e3f600419f2bbf84f1ea7582ed55c58eccc024382d6db245"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-21.0_1.sierra.bottle.tar.gz",
+          "sha256": "2e174f6c4df74ef3cd5decca500963db0c99d71553da624693ec4e9d085a0a56"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@1.1"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

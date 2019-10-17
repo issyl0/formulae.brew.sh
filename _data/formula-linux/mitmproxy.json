@@ -1,0 +1,83 @@
+{
+  "name": "mitmproxy",
+  "full_name": "mitmproxy",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Intercept, modify, replay, save HTTP/S traffic",
+  "homepage": "https://mitmproxy.org",
+  "versions": {
+    "stable": "4.0.4",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/mitmproxy-4.0.4_1.mojave.bottle.tar.gz",
+          "sha256": "4b0bcb86f6eaabecde7a75dea70f6a0d3b0029d5abd407581579e7735dd6ddf4"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mitmproxy-4.0.4_1.high_sierra.bottle.tar.gz",
+          "sha256": "1c43f967c2526644fd4536d2a63a9526dcf20158c1288cbb086c467d9a581345"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/mitmproxy-4.0.4_1.sierra.bottle.tar.gz",
+          "sha256": "36114abd20791f041f8d5c76f6448635cf8adc6c99777366dcba86f27f0f19b4"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/mitmproxy-4.0.4_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "bb5ad35e774c622387094bcd99b28d7614ac38802df84f97e1c0f53f71b22db8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "protobuf",
+    "python",
+    "libffi"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

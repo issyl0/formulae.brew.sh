@@ -1,0 +1,80 @@
+{
+  "name": "fork-cleaner",
+  "full_name": "fork-cleaner",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Cleans up old and inactive forks on your GitHub account",
+  "homepage": "https://github.com/caarlos0/fork-cleaner",
+  "versions": {
+    "stable": "1.5.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/fork-cleaner-1.5.0.catalina.bottle.tar.gz",
+          "sha256": "15fbcd401a094d4043125534ed65d288d83689f9388836a21f78178a6b56337e"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/fork-cleaner-1.5.0.mojave.bottle.tar.gz",
+          "sha256": "2121f81a8ba2a346bd3c996ecdbcca57dea8508306ed662a1572b198f419f860"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/fork-cleaner-1.5.0.high_sierra.bottle.tar.gz",
+          "sha256": "057111aea39d7d2a1335dab715121e31e98971a611627f94dbb6c52ddea8bf34"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/fork-cleaner-1.5.0.x86_64_linux.bottle.tar.gz",
+          "sha256": "b65e0a528f45b8498235a5e85fca7061b841c9a03ed703ec78b4f70718e48ba5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

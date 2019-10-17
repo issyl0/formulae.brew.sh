@@ -1,0 +1,80 @@
+{
+  "name": "pulumi",
+  "full_name": "pulumi",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Cloud native development platform",
+  "homepage": "https://pulumi.io/",
+  "versions": {
+    "stable": "1.3.2",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/pulumi-1.3.2.catalina.bottle.tar.gz",
+          "sha256": "09f5ab1a13f120bd9a73bbfbec8734ca0204c35340972ea3b12764e51c616adc"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/pulumi-1.3.2.mojave.bottle.tar.gz",
+          "sha256": "0a18e2b771917b2f8ec2123f5f5b6de6c32f6ee569dfd9cc9aa717fae5b222f0"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/pulumi-1.3.2.high_sierra.bottle.tar.gz",
+          "sha256": "49f2c55b8b6f76b39e27a9e559489c38973203b96c5723e860884444dc953532"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/pulumi-1.3.2.x86_64_linux.bottle.tar.gz",
+          "sha256": "81188f8b221448731b752f387f841557a41cc8b0eb2cdc4fc70bb00281757d13"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "go@1.12"
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

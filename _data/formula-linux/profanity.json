@@ -1,0 +1,87 @@
+{
+  "name": "profanity",
+  "full_name": "profanity",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Console based XMPP client",
+  "homepage": "http://www.profanity.im/",
+  "versions": {
+    "stable": "0.7.0",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.7.0_1.mojave.bottle.tar.gz",
+          "sha256": "f22a03bebff8b2f665f43d53fb73f85d43c4527335df6a51e7600dbb0fb5828e"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.7.0_1.high_sierra.bottle.tar.gz",
+          "sha256": "98a55ec40c11d1909d4651cf3263e20da2a698acee294a2ea1241cec140aae6b"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.7.0_1.sierra.bottle.tar.gz",
+          "sha256": "f5ec5037194ddf9117317fed8f521129904b1d13cd24a3133267f13fb9c914eb"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.7.0_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "12abf791dc99f0c622a8c622d6ceb22b8e3057d0bd8660d97a8278f1e9770686"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "gnutls",
+    "gpgme",
+    "libotr",
+    "libstrophe",
+    "openssl@1.1",
+    "readline",
+    "curl"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

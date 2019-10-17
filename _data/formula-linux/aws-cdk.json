@@ -1,0 +1,76 @@
+{
+  "name": "aws-cdk",
+  "full_name": "aws-cdk",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "AWS Cloud Development Kit - framework for defining AWS infra as code",
+  "homepage": "https://github.com/aws/aws-cdk",
+  "versions": {
+    "stable": "1.13.0",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/aws-cdk-1.13.0.catalina.bottle.tar.gz",
+          "sha256": "9f1deba5ca87b2af806828259da6fcf22fbc9b251c34efc2482015ae211a03c5"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/aws-cdk-1.13.0.mojave.bottle.tar.gz",
+          "sha256": "c6fd0202ee30e003cbd84c1d463ee6189842e3e55a1941034ccf73d4aa824cc9"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/aws-cdk-1.13.0.high_sierra.bottle.tar.gz",
+          "sha256": "627d460d28bb0972cac2105fb68712d4bcd7858d9675bba17d6274b5b214bca7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

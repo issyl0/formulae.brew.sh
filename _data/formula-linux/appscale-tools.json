@@ -1,0 +1,84 @@
+{
+  "name": "appscale-tools",
+  "full_name": "appscale-tools",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Command-line tools for working with AppScale",
+  "homepage": "https://github.com/AppScale/appscale-tools",
+  "versions": {
+    "stable": "3.5.3",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/appscale-tools-3.5.3_1.mojave.bottle.tar.gz",
+          "sha256": "152516bbbd74d6e356e70f2127f5856138291afcb2c5c8fb32356cf3827b2f5e"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/appscale-tools-3.5.3_1.high_sierra.bottle.tar.gz",
+          "sha256": "2f3af2aec3c7270aea877868f28f6a7a2c783e74b44261523d255b409047689a"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/appscale-tools-3.5.3_1.sierra.bottle.tar.gz",
+          "sha256": "e8eec8f0fef97aeb3cc2c6cf196712b44fd34d73c1292746aa3fa7ab75b8c0b8"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/appscale-tools-3.5.3_1.x86_64_linux.bottle.tar.gz",
+          "sha256": "a3f82399369178a8f3427bea3adb6921fdf21100657a94850cd60b7ba3cb8d91"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libyaml",
+    "openssl@1.1",
+    "python@2",
+    "ssh-copy-id",
+    "libffi"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

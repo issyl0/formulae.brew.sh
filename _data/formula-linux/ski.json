@@ -1,0 +1,88 @@
+{
+  "name": "ski",
+  "full_name": "ski",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Evade the deadly Yeti on your jet-powered skis",
+  "homepage": "http://catb.org/~esr/ski/",
+  "versions": {
+    "stable": "6.12",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any_skip_relocation",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.catalina.bottle.tar.gz",
+          "sha256": "7161ba864aa52070345f033632f46537caf516b1368140e4de22bb2b17e88736"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.mojave.bottle.tar.gz",
+          "sha256": "3a5815dd128f1818e43954d76054fb5708afa95cf102b2c3a4fe82aaba6d1e49"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.high_sierra.bottle.tar.gz",
+          "sha256": "b9ae8b2b8ce8c4454bd0690dffc6d90873c4afbc0cf2945af0791a79b5d871ef"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.sierra.bottle.tar.gz",
+          "sha256": "b7da8676863a5d83104b2fc223b61b49be43d3f18457126053ee98be9ab900fe"
+        },
+        "el_capitan": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.el_capitan.bottle.tar.gz",
+          "sha256": "b7da8676863a5d83104b2fc223b61b49be43d3f18457126053ee98be9ab900fe"
+        },
+        "yosemite": {
+          "url": "https://linuxbrew.bintray.com/bottles/ski-6.12.yosemite.bottle.tar.gz",
+          "sha256": "b7da8676863a5d83104b2fc223b61b49be43d3f18457126053ee98be9ab900fe"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

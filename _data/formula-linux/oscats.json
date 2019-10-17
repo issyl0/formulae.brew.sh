@@ -1,0 +1,77 @@
+{
+  "name": "oscats",
+  "full_name": "oscats",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Computerized adaptive testing system",
+  "homepage": "https://code.google.com/archive/p/oscats/",
+  "versions": {
+    "stable": "0.6",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_4.mojave.bottle.tar.gz",
+          "sha256": "6e4434a738c9cce8524c2fc344c82599d11ae17621cd7cc3f506db07cbbbea5b"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_4.high_sierra.bottle.tar.gz",
+          "sha256": "41402210d7c753b1e13e2cf549bc805d219811b543b494940537e038c205fd41"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_4.sierra.bottle.tar.gz",
+          "sha256": "8ac60125dc045b55d30b3859da251f7df9004c0b8a8d32b3c10282b78becacc7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "gsl"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

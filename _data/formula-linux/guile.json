@@ -1,0 +1,87 @@
+{
+  "name": "guile",
+  "full_name": "guile",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "GNU Ubiquitous Intelligent Language for Extensions",
+  "homepage": "https://www.gnu.org/software/guile/",
+  "versions": {
+    "stable": "2.2.6",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.6.mojave.bottle.tar.gz",
+          "sha256": "17506d92107d7209955da7c2adf9ab324d41b9667557a9b1fa81d6f6813149f3"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.6.high_sierra.bottle.tar.gz",
+          "sha256": "093fc2760544ffff7c69ec0e0767b586e206ca67cf909b51211f7eea368ef9ea"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.6.sierra.bottle.tar.gz",
+          "sha256": "32e167bfe1de00fdd3c64e5785edbf5d90b3c8621e3699fd287cb6b09a377d7f"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.6.x86_64_linux.bottle.tar.gz",
+          "sha256": "48636a7d17636f4765725a10decf9dc3c03270b79e866b29fbc06a21e96244c9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "gnu-sed"
+  ],
+  "dependencies": [
+    "bdw-gc",
+    "gmp",
+    "libffi",
+    "libtool",
+    "libunistring",
+    "pkg-config",
+    "readline",
+    "gperf"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

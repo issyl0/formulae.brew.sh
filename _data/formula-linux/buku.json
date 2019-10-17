@@ -1,0 +1,79 @@
+{
+  "name": "buku",
+  "full_name": "buku",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Powerful command-line bookmark manager",
+  "homepage": "https://github.com/jarun/Buku",
+  "versions": {
+    "stable": "4.2.2",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/buku-4.2.2_1.mojave.bottle.tar.gz",
+          "sha256": "4d967af6718f0da6ae76412a9c4c9d756e8a5d6e1c9b1d5e276e9e56d36357cd"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/buku-4.2.2_1.high_sierra.bottle.tar.gz",
+          "sha256": "fa52aab1b64d26a7120a227db71b2e32c90512191e64fe709ed63493e913b34a"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/buku-4.2.2_1.sierra.bottle.tar.gz",
+          "sha256": "a946efe8e1d35cf8934f7f33dcebf905a8e8d6d66702f469d1929cfb291475df"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "python",
+    "libffi",
+    "expect"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

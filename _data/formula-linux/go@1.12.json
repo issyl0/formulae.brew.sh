@@ -1,0 +1,84 @@
+{
+  "name": "go@1.12",
+  "full_name": "go@1.12",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Go programming environment (1.12)",
+  "homepage": "https://golang.org",
+  "versions": {
+    "stable": "1.12.10",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.12-1.12.10.catalina.bottle.tar.gz",
+          "sha256": "806a86156866dbd32589d6224b8782051de43240b068b4118f25208d6652df63"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.12-1.12.10.mojave.bottle.tar.gz",
+          "sha256": "7369ba700155baac67d4e892b3cf13c8441e613ec221a93e1b11e8b480772269"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.12-1.12.10.high_sierra.bottle.tar.gz",
+          "sha256": "72b9233296744cf026c7521121ea4eee24d7a12179b4685c119db631c4879a42"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.12-1.12.10.x86_64_linux.bottle.tar.gz",
+          "sha256": "86087d6b72025bf99a9661401c847f8ddbd2d99eb601a7b3a1b80671eaacebb0"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null
+    }
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,84 @@
+{
+  "name": "source-highlight",
+  "full_name": "source-highlight",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Source-code syntax highlighter",
+  "homepage": "https://www.gnu.org/software/src-highlite/",
+  "versions": {
+    "stable": "3.1.8",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 13,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_13.catalina.bottle.tar.gz",
+          "sha256": "3f543911ca3cd1b2327299415578cb8906e0da69297196672647434d949c4177"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_13.mojave.bottle.tar.gz",
+          "sha256": "3fb0d7d6af8c83428f9ec59583f272ac5937c72fd193d44498b0aa37b5d2d6d6"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_13.high_sierra.bottle.tar.gz",
+          "sha256": "b74d7d2073739465a5a634a41fb16d9c98bd73d03066450b853997bc15465da5"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_13.sierra.bottle.tar.gz",
+          "sha256": "8238f507791ed199b72ebbe0e473de1c7945bb88e8943754c3474a5bdad7d563"
+        },
+        "x86_64_linux": {
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_13.x86_64_linux.bottle.tar.gz",
+          "sha256": "239847a37fe91a665b169329ea1072b9189ecba1ac4c3320d1d8c003f999dc9b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

@@ -1,0 +1,81 @@
+{
+  "name": "dnsperf",
+  "full_name": "dnsperf",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Measure DNS performance by simulating network conditions",
+  "homepage": "https://www.dns-oarc.net/tools/dnsperf",
+  "versions": {
+    "stable": "2.3.1",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.3.1_1.catalina.bottle.1.tar.gz",
+          "sha256": "d264a56c9be9fd51438178358f98d6e51622a153fcf97487ac6fb93ee6f9819b"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.3.1_1.mojave.bottle.1.tar.gz",
+          "sha256": "fc3550c76cf87091bbee3fa47a61970c9f0c862e8beb4ac9702636d3541a1b88"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.3.1_1.high_sierra.bottle.1.tar.gz",
+          "sha256": "25020eee136ad0faf63126440c93dcc87dd35be1e951cd595247b65e51ed2d39"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.3.1_1.sierra.bottle.1.tar.gz",
+          "sha256": "6be4c1270899b5af3526547f7e0edb5a79ac16ca634bab93af3edb6901b9cd6b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "bind",
+    "libxml2"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}

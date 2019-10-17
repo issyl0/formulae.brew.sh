@@ -1,0 +1,85 @@
+{
+  "name": "libopenmpt",
+  "full_name": "libopenmpt",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Software library to decode tracked music files",
+  "homepage": "https://lib.openmpt.org/libopenmpt/",
+  "versions": {
+    "stable": "0.4.6",
+    "devel": null,
+    "head": null,
+    "bottle": true
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "cellar": ":any",
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "files": {
+        "catalina": {
+          "url": "https://linuxbrew.bintray.com/bottles/libopenmpt-0.4.6.catalina.bottle.tar.gz",
+          "sha256": "d939c3e1b4d2a259f2922a15a781408950a71bccbf102533896bd14b2b9bf131"
+        },
+        "mojave": {
+          "url": "https://linuxbrew.bintray.com/bottles/libopenmpt-0.4.6.mojave.bottle.tar.gz",
+          "sha256": "1d879d62f9735a878b7ca9dc1c58c5c0c0689a4ba1382852141117c44497fa9c"
+        },
+        "high_sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libopenmpt-0.4.6.high_sierra.bottle.tar.gz",
+          "sha256": "03641eeb64206a5c2dd4cd83f329257910905745206c03f631178999c4adba5d"
+        },
+        "sierra": {
+          "url": "https://linuxbrew.bintray.com/bottles/libopenmpt-0.4.6.sierra.bottle.tar.gz",
+          "sha256": "d0dcb2682450017ae2c58968e4cad7cb778f627f7cb93eaab12792135eb17def"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "flac",
+    "libogg",
+    "libsndfile",
+    "libvorbis",
+    "mpg123",
+    "portaudio"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false
+}
